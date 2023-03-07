@@ -1,0 +1,29 @@
+/*
+h1 {
+    margin
+    color:blue; 
+    text-align:center;
+}
+*/
+
+body {
+    background-image: url(https://d2csxpduxe849s.cloudfront.net/media/E32629C6-9347-4F84-81FEAEF7BFA342B3/24220D05-C580-4CEE-BF600801B906E712/97C2F5A1-B4E6-4543-8F35006A0AAFD991/WebsiteJpg_XL-FFGC_Main%20Visual_Green_Website.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#homeTitle {
+    color:blue; 
+    text-align:center;
+}
+.stylishitem{
+    color:greenyellow;
+}
+
+td {
+    border: 1px solid skyblue;
+}
+
+th {
+    border: 1px solid skyblue;
+}
