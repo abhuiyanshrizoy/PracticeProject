@@ -70,7 +70,7 @@ body{
 .manu{
     float: right;
     width: 960px;
-    text-align:right;
+    text-align: right;
     margin-top: 15px;
 }
 
@@ -80,7 +80,18 @@ body{
     font-size: 24px;
 }
 
+/*.reg{
+    float: right;
+    width: 200px;
+    margin-bottom: 5px;
+    text-align: right;
+}
 
+.reg a{
+    color: #000;
+    padding: 10px;
+    font-size: 24px;
+}*/
 
 /*************banner*************/
 
@@ -105,6 +116,7 @@ body{
 
 .service-item{
     width: 350px;
+    height: 200px;
     float: left;
     text-align: center;
     margin-top: 20px;
