@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/************position*************/
+
+.Position-main{
+    width: 700px;
+    height: 500px;
+    background: #777;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.one{
+    height: 300px;
+    width: 300px;
+    background: red;
+}
