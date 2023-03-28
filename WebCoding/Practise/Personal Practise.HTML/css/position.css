@@ -7,15 +7,106 @@ body{
 /************position*************/
 
 .Position-main{
-    width: 700px;
-    height: 500px;
+    width: 1000px;
+    height: 700px;
     background: #777;
     margin: 0 auto;
     margin-top: 50px;
+    position: relative;
 }
 
 .one{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    float: left;
     height: 300px;
     width: 300px;
     background: red;
+    padding: 5px;
+}
+
+.two{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    float: left;
+    height: 300px;
+    width: 300px;
+    background: cornflowerblue;
+    padding: 5px;
+}
+
+.three{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    float: left;
+    height: 300px;
+    width: 300px;
+    background: orange;
+    padding: 5px;
+}
+
+.four{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    float: left;
+    height: 300px;
+    width: 300px;
+    background: crimson;
+    padding: 5px;
+}
+
+.flag{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    float: left;
+    height: 300px;
+    width: 300px;
+    background: green;
+    padding: 5px;
+}
+
+.mid-color{
+    position: relative;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: red;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+/********banner********/
+
+.banner{
+    margin-top: 30px;
+    background: url(../image/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px;
+    position: relative;
+}
+
+.banner .af-be{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    top: 0;
+    left: 0;
+}
+
+.banner .af-be p{
+    color: #fff;
+    text-align: center;
+    padding: 200px;
+    line-height: 26px;
 }
