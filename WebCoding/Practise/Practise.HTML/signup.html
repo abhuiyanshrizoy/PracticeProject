@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500&family=Roboto+Slab:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/econ.css">
+</head>
+<body>
+    <div class="main-div">
+        <form>
+            <table class="table">
+                <h1>SIGN UP</h1>
+                <tr>
+                    <td>NAME :</td>
+                    <td><input type="text" name="" placeholder="Enter Name" required></td>
+                </tr>
+                <tr>
+                    <td>EMAIL :</td>
+                    <td><input type="email" id="email" name="email" placeholder="Enter Email" required></td>
+                </tr>
+                <tr>
+                    <td>PHONE :</td>
+                    <td><input type="tel" id="phone" name="phone" placeholder="Enter Phone" pattern="[0-9]{3}[0-9]{4}[0-9]{4}" required></td>
+                </tr>
+                <tr>
+                    <td>PASSWORD :</td>
+                    <td><input type="password" id="password" name="password" placeholder="Enter Password" pattern="[0-9]{8}" required></td>
+                </tr>
+                <tr>
+                    <td>CON-PASSWORD :</td>
+                    <td><input type="password" id="password" name="password" placeholder="Enter Confirm Password" pattern="[0-9]{8}" required></td>
+                </tr>
+                <tr>
+                    <td>GENDER</td>
+                    <td>
+                    <input type="radio" name="gender"  value="mane">MALE
+                    <input type="radio" name="gender"  value="femane">FEMALE
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" name="" required>ARE YOU AGREE</td>
+                </tr>
+                <tr>
+                    <td><button type="submit">SIGN UP</button></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+</html>
