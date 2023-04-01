@@ -3,13 +3,20 @@ a{
 }
 
 body{
-    background-image: url('../image/Untitled\ design\ \(1\).png');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     font-family: 'Edu NSW ACT Foundation', cursive;
     font-family: 'Roboto Slab', serif;
-    height: 650px;
+}
+
+
+.full-wraper{
+    width:100%;
+    clear: both;
+}
+
+.wraper{
+    width: 1100px;
+    margin: 0 auto;
+
 }
 
 .logo{
@@ -37,15 +44,13 @@ body{
     font-size: 24px;
 }
 
-/*.banner-img{
+.homepage{
     background-image: url('../image/Untitled\ design\ \(1\).png');
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat;
-    padding: 280px 0;
-    /*margin-top: 120px;
-    height: 120px;
-}*/
+    background-repeat: repeat;
+    height: 592px;
+}
 
 .main-div{
     background-image: url('../image/banner\ 2.jpg');
@@ -53,7 +58,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     padding: 100px 0;
-    height: 70.2vh;
+    height: 70vh;
 }
 
 .table{
@@ -107,6 +112,52 @@ h1{
 }
 
 .parent-wraper {
-    display: flex;
+    /*display: flex;*/
     justify-content: center;
 }
+.about h1{
+    color: #444;
+    padding: 50px;
+
+ }
+ 
+ .about-left{
+     float: left;
+     width: 50%;
+ }
+ 
+ .about-left img{
+     width: 50%;
+ }
+ 
+ .about-right{
+     position: relative;
+     float: left;
+     width: 50%;
+ }
+ 
+ .about-right p{
+     width: 100%;
+     line-height: 26px;
+     margin-top: 20px;
+ }
+ 
+ .about-right a{
+     position: absolute;
+     border-radius: 3px;
+     top: 200px;
+     /* right: 435px; */
+     color: #444;
+     border: 1px solid #444;
+     padding: 10px;
+     transition: 0.1s;
+ }
+ 
+ .about-right a:hover{
+     background: #444;
+     color: #f1f1f1;
+ }
+
+ textarea{
+    resize: none;
+ }
