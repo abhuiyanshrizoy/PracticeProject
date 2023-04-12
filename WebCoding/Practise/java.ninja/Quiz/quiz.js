@@ -34,7 +34,62 @@ const questions = [
             {text:"Croatia", correct: false},
             {text:"Morroco", correct: false},
         ]
+    },
+    {
+        question: "Which country won the first ever World Cup in 1930?",
+        answer:[
+            {text:"Argentina", correct: false},
+            {text:"Sweden", correct: false},
+            {text:"Uruguay", correct: true},
+            {text:"Italy", correct: false},
+        ]
+    },
+    {
+        question: "Which player scored the fastest hat-trick in the Premier League?",
+        answer:[
+            {text:"Sadio Mane", correct: true},
+            {text:"C.Ronaldo", correct: false},
+            {text:"L.Messi", correct: false},
+            {text:"Pele", correct: false},
+        ]
+    },
+    {
+        question: "Which team won the first Premier League title?",
+        answer:[
+            {text:"Real Madrid", correct: false},
+            {text:"Liverpool", correct: false},
+            {text:"Chelsa", correct: false},
+            {text:"Manchester United", correct: true},
+        ]
+    },
+    {
+        question: "In which World Cup did Diego Maradona score his infamous 'Hand of God' goal?",
+        answer:[
+            {text:"Mexico", correct: true},
+            {text:"Germany", correct: false},
+            {text:"Italy", correct: false},
+            {text:"Brazil", correct: false},
+        ]
+    },
+    {
+        question: "In which season was the European Cup rebranded as the Champions League?",
+        answer:[
+            {text:"1978-79", correct: false},
+            {text:"1966-67", correct: false},
+            {text:"1992-93", correct: true},
+            {text:"1979-80", correct: false},
+        ]
+    },
+    {
+        question: "Which outfield player appeared in the Champions League final in three different decades?",
+        answer:[
+            {text:"Ryan Giggs", correct: true},
+            {text:"Francisco Gento", correct: false},
+            {text:"Cristiano Ronaldo", correct: false},
+            {text:"Nottingham Forest", correct: false},
+        ]
     }
+    
 ];
 const questionElement = document.getElementById("question");
 const answerButtons = document.getElementById("answer-buttons");
@@ -98,7 +153,7 @@ function selectAnswer(e){
 
 function showScore(){
     resetState();
-    questionElement.innerHTML = 'You scored ${score} out of ${questions.length}!';
+    questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
     nextButton.innerHTML = "Play Again";
     nextButton.style.display = "block";
 }
