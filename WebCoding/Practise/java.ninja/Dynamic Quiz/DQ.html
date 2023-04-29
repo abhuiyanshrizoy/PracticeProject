@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Dq.css">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="flex">
+    <div class="wrapper">
+        <div class="quiz-container">
+            <div class="quiz-head">
+                <h1 class="quiz-tittle">Quiz Game</h1>
+                <div class="quiz-score flex">
+                    <span id="correct-score">0</span>/<span id="total-questions">15</span>
+                </div>
+            </div>
+            <div class="quiz-body">
+                <h2 class="quiz-question" id="question">Which country won the first ever World Cup in 1930? <br> <span class="category">Football</span></h2>
+                <ul class="quiz-options">
+                    <li>1.Uruguay</li>
+                    <li>2.Sweden</li>
+                    <li>3.Argentina</li>
+                    <li>4.Italy</li>
+                </ul>
+                <div id="resut"></div>
+            </div>
+            <div class="quiz-foot">
+                <button type="button" id="check-answer">Check Answer</button>
+                <button type="button" id="play-again">Play Again</button>
+            </div>
+        </div>
+    </div>
+    <script src="Dq.js"></script>
+</body>
+</html>
