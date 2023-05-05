@@ -27,8 +27,7 @@ body{
     padding: 1.5rem 4rem 3rem 4rem;
     width: 600px;
     height: 680px;
-    border-top-left-radius: 1.5rem;
-    border-bottom-right-radius: 1.5rem;
+    border-radius:  1.5rem;
     position: relative;
     box-shadow: 0 4px 6px rgb(0 0 0 / 10%), 0 1px 3px rgb(0 0 0 / 10%);
 }
@@ -55,7 +54,7 @@ body{
     margin-bottom: 2rem;
 }
 .quiz-question .category{
-    font-size: 0.9rem;
+    font-size: 19px;
     font-weight: 500;
     background-color: var(--light-purple-color);
     color: var(--light-color);
