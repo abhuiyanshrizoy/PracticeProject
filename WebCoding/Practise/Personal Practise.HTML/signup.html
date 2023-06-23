@@ -29,11 +29,15 @@
                 </tr>
                 <tr>
                     <td>Password :</td>
-                    <td><input type="password" id="password" name="password" placeholder="Enter Password" pattern="[0-9]{8}" required></td>
+                    <td><input type="password" id="password" value="" placeholder="Enter Password" required></td>
+                </tr>
+                <tr  id="PSW">
+                    <td>Show Password :</td>
+                    <td><input type="checkbox" onclick="myFunction()"></td>
                 </tr>
                 <tr>
                     <td>Con-Password :</td>
-                    <td><input type="password" id="password" name="password" placeholder="Enter Confirm-Password" pattern="[0-9]{8}" required></td>
+                    <td><input type="password" id="password" name="password" placeholder="Enter Confirm-Password" required></td>
                 </tr>
                 <tr>
                     <td>Gender</td>
@@ -53,4 +57,14 @@
         </form>
     </div>
 </body>
+<script>
+    function myFunction() {
+  var x = document.getElementById("password");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
+</script>
 </html>
